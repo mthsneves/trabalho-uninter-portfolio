@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Matheus Neves • Contato</title>
+  <meta name="description" content="Portfólio pessoal de Matheus Henrique Silva das Neves.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Voltar para a página inicial">
+      <span class="brand-badge" aria-hidden="true">MN</span>
+      <span>Matheus Neves • Portfólio</span>
+    </a>
+    <nav class="menu" aria-label="Menu principal">
+      <a href="index.html">Início</a> <a href="sobre.html">Sobre mim</a> <a href="formacao.html">Formação</a> <a href="portfolio.html">Portfólio</a> <a href="contato.html" aria-current="page">Contato</a>
+    </nav>
+  </div>
+</header>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Contato</h1>
+      <p>Formulário visual (sem back-end) conforme solicitado.</p>
+    </div>
+  </header>
+
+  <main class="container section">
+    
+    <section class="card">
+      <h2>Fale comigo</h2>
+      <!-- Formulário apenas visual, sem JavaScript.
+           Para envio real, é necessário back-end ou serviço de formulário. -->
+      <form action="#" method="post" onsubmit="return false" aria-describedby="formInfo">
+        <div id="formInfo" style="color:var(--muted); margin-bottom:6px;">
+          Preencha os campos abaixo. Este formulário é apenas demonstrativo (não envia dados).
+        </div>
+        <label for="nome">Nome</label>
+        <input id="nome" name="nome" type="text" placeholder="Seu nome completo" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="voce@email.com" required>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Como posso ajudar?"></textarea>
+
+        <button type="submit" aria-label="Apenas ilustrativo">Enviar</button>
+      </form>
+    </section>
+    
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>© Matheus Neves feito com HTML5 e CSS, sem frameworks.</small>
+    </div>
+  </footer>
+</body>
+</html>
